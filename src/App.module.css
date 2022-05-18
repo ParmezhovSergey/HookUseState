@@ -1,0 +1,55 @@
+.app {
+  height: 100vh;
+  min-width: 100%;
+  background-color: rgb(193, 186, 152);
+  font-size: 30px;
+}
+
+.counter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 60px;
+}
+.man {
+  border: solid 3px black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.woman {
+  border: solid 3px black;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.button {
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+
+  margin: 0px auto;
+}
+.manCounter {
+  padding: 50px;
+}
+.butt {
+  height: 40px;
+  width: 40px;
+  border: solid 1px black;
+  align-items: center;
+  text-align: center;
+}
+.reset {
+  height: 20px;
+  width: 60px;
+  background-color: red;
+}
